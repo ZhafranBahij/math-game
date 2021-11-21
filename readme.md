@@ -1,6 +1,6 @@
 # Math Game
 
-Apakah reaksimu ketika mendengar Matematika? Mendebarkan atau Menyenangkan? Nahh, di game ini, kalian bakal merasakan sensasi menyenangkan dan mendebarkan sekaligus. Penasaran, kan? [Klik link ini untuk memulai](https://www.google.com)
+Apakah reaksimu ketika mendengar Matematika? Mendebarkan atau Menyenangkan? Nahh, di game ini, kalian bakal merasakan sensasi menyenangkan dan mendebarkan sekaligus. Penasaran, kan? [Klik link ini untuk memulai](https://zhafranbahij.github.io/math-game/gamepg2.html)
 
 ## Gameplay
 
