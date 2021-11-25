@@ -12,44 +12,51 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&display=swap"
+      rel="stylesheet"
+    />
 
-    <title>Hello, world!</title>
+    <title>Game Start</title>
+    <link rel="stylesheet" type="text/css" href="./css/warna.css" />
   </head>
+
   <body>
-    <header><h1 id="score">Welcome Baka!</h1></header>
-
-    <main
-      id="question_menu"
-      class="
-        container
-        d-flex
-        flex-column
-        justify-content-center
-        align-items-center
-      "
-      style="height: 100vh"
+    <div
+      class="d-flex justify-content-center align-items-center flex-column"
+      id="inti"
     >
-      <!--* Button soal satu -->
-      <article class="mt-5">
-        <button type="button" class="btn btn-secondary" id="quest01">
-          1 + 1
-        </button>
-      </article>
-
-      <!--* Button operasi -->
-      <article class="mt-5">
-        <button type="button" class="btn btn-secondary" id="more">></button>
-        <button type="button" class="btn btn-secondary" id="equals">=</button>
-        <button type="button" class="btn btn-secondary" id="less"><</button>
-      </article>
-
-      <!--* Button soal dua -->
-      <article class="mt-5">
-        <button type="button" class="btn btn-secondary" id="quest02">
-          2 + 1
-        </button>
-      </article>
-    </main>
+      <h1 style="color: yellow">MATH GAME</h1>
+      <a
+        class="btn"
+        style="background-color: red; color: white"
+        href="./level/level01.html"
+        >LEVEL 1</a
+      >
+      <a class="btn" style="background-color: pink" href="./level/level02.html"
+        >LEVEL 2</a
+      >
+      <a
+        class="btn"
+        style="background-color: green; color: white"
+        href="./level/level03.html"
+        >LEVEL 3</a
+      >
+      <a
+        class="btn"
+        style="background-color: yellow"
+        href="./level/level04.html"
+        >LEVEL 4</a
+      >
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -65,7 +72,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-
-    <script src="./script.js"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 # Math Game
 
-Apakah reaksimu ketika mendengar Matematika? Mendebarkan atau Menyenangkan? Nahh, di game ini, kalian bakal merasakan sensasi menyenangkan dan mendebarkan sekaligus. Penasaran, kan? [Klik link ini untuk memulai](https://zhafranbahij.github.io/math-game/gamepg2.html)
+Apakah reaksimu ketika mendengar Matematika? Mendebarkan atau Menyenangkan? Nahh, di game ini, kalian bakal merasakan sensasi menyenangkan dan mendebarkan sekaligus. Penasaran, kan? [Klik link ini untuk memulai](https://zhafranbahij.github.io/math-game)
 
 ## Gameplay
 
@@ -14,7 +14,7 @@ Game ini belum siap rilis cuyy, yang sabar yo. Tunggu beberapa minggu lagi.
 
 Kami dari tim Pebeka 13 dan berikut ini adalah membernya.
 
-1. Atikah Khonsa Salsabila (1313619003)
+1. Atikah Khonsa Salsabila (1313619002)
 2. Ecep Jiyaul Rojak (1313619009)
 3. Ferdy Nugraha Rachmadi (1313619011)
 4. Muhammad Zhafran Bahij (1313619012)

@@ -1,0 +1,21 @@
+body {
+  background-color: #41e4f0;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "coiny";
+}
+
+a {
+  border-style: groove;
+  font-size: 30px;
+  font-family: "coiny";
+  padding: 0px 100px;
+  width: 30%;
+  margin: 5px auto;
+}
+
+#inti {
+  height: 100vh;
+}
