@@ -24,7 +24,7 @@ let quest01 = document.querySelector("#quest01");
 let quest02 = document.querySelector("#quest02");
 let endQuest = document.querySelector("#end_question");
 
-let question = questions[Math.floor(Math.random() * 3)];
+let question = questions[Math.floor(Math.random() * questions.length)];
 
 quest01.innerHTML = question[0];
 quest02.innerHTML = question[1];
