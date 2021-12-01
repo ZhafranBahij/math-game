@@ -25,7 +25,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/level.css" />
   </head>
   <body>
     <header>
@@ -38,15 +38,22 @@
     </header>
 
     <div class="form">
+
       <form action="" method="">
         <ul id="question_menu" class="">
+
           <p>
             <span id="quest01">1 + 1</span> ... <span id="quest02">2 + 2</span>
           </p>
+          <!-- <div class="alert alert-danger" role="alert">
+            Salah
+          </div> -->
           <br />
-          <button type="button" id="more">></button>
-          <button type="button" id="equals">=</button>
-          <button type="button" id="less"><</button>
+          <div id="answer">
+            <button type="button" id="more">></button>
+            <button type="button" id="equals">=</button>
+            <button type="button" id="less"><</button>
+          </div>
         </ul>
         <div id="end_question"></div>
       </form>
@@ -71,5 +78,6 @@
 
     <!-- script biasa -->
     <script src="../js/level01.js"></script>
+    <script src="../js/core.js"></script>
   </body>
 </html>
