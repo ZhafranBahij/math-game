@@ -71,6 +71,9 @@ const clickButton = (operator) => {
   if (++count == 5) {
     document.querySelector("#question_menu").classList = "visually-hidden";
     endQuest.innerHTML = `Score kamu adalah ${theTruth}`;
+
+    //* Save Progress
+    localStorage.setItem("Level_LP", 2);
   }
 };
 
