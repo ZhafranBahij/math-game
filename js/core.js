@@ -10,7 +10,8 @@ let quest01 = document.querySelector("#quest01");
 let quest02 = document.querySelector("#quest02");
 let endQuest = document.querySelector("#end_question");
 
-let question = questions[Math.floor(Math.random() * questions.length)];
+let question =
+  questions["data"][Math.floor(Math.random() * questions["data"].length)];
 
 quest01.innerHTML = question[0];
 quest02.innerHTML = question[1];
@@ -62,7 +63,8 @@ const clickButton = (operator) => {
     signAlert("gagal");
     console.log("Kau Salah");
   }
-  question = questions[Math.floor(Math.random() * 9)];
+  question =
+    questions["data"][Math.floor(Math.random() * questions["data"].length)];
 
   quest01.innerHTML = question[0];
   quest02.innerHTML = question[1];
@@ -73,7 +75,9 @@ const clickButton = (operator) => {
     endQuest.innerHTML = `Score kamu adalah ${theTruth}`;
 
     //* Save Progress
-    localStorage.setItem("Level_LP", 2);
+    if (localStorage.getItem("Level_LP") < questions["unlock_level"]) {
+      localStorage.setItem("Level_LP", questions["unlock_level"]);
+    }
   }
 };
 
