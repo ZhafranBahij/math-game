@@ -32,5 +32,4 @@ if (typeof Storage !== "undefined") {
 
 progress.addEventListener("click", () => {
   localStorage.setItem("Level_LP", 0);
-  location.reload();
 });
