@@ -15,22 +15,19 @@ if (typeof Storage !== "undefined") {
   var count = localStorage.getItem("Level_LP");
   setInterval(() => {
     //* Unlock level
+    if (count >= 2) {
+      level02.className = "btn";
+    }
+    if (count >= 3) {
+      level03.className = "btn";
+    }
+    if (count >= 4) {
+      level04.className = "btn";
+    }
     localStorage.setItem("Level_LP", count);
   }, 100);
 } else {
   // Sorry! No Web Storage support..
-}
-
-let whatLevel = localStorage.getItem("Level_LP");
-
-if (whatLevel >= 2) {
-  level02.className = "btn";
-}
-if (whatLevel >= 3) {
-  level03.className = "btn";
-}
-if (whatLevel >= 4) {
-  level04.className = "btn";
 }
 
 progress.addEventListener("click", () => {
