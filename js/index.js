@@ -34,8 +34,6 @@ if (whatLevel >= 4) {
 }
 
 progress.addEventListener("click", () => {
-  if (confirm("Apakah data kamu ingin dihapus?")) {
-    localStorage.setItem("Level_LP", 0);
-    location.reload();
-  }
+  localStorage.setItem("Level_LP", 0);
+  location.reload();
 });
