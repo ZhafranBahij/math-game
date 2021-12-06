@@ -30,4 +30,7 @@ var questions = {
   ],
 
   unlock_level: 3,
+  example: "3 x 4 || 8 : 2",
+  description:
+    "3 x 4 sama saja dengan 4 + 4 + 4 = 12. 8 : 2 sama saja dengan 8 - 2 - 2 - 2 - 2 = 0, nahh jumlah angka-2 ada 4. Berarti 8 : 2 = 4",
 };

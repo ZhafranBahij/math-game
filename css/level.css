@@ -12,6 +12,13 @@
 body {
   background-color: #41e4f0;
 }
+
+#buttonInfo {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
 button {
   background-color: yellow;
   box-shadow: 3px 2px 1px grey;

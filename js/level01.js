@@ -13,4 +13,7 @@ var questions = {
     ["4 - 4", "4 - 3", "less"],
   ],
   unlock_level: 2,
+  example: "5 + 7 || 7 - 5",
+  description:
+    "Coba bayangkan ada 5 apel terus dikasih 7 apel tambahan, nahh berarti kamu dapat 12 apel. Nahh, untuk yang pengurangan coba bayangkan ada 7 apel, terus 5 apelnya disumbangkan. Berarti sisa apel kamu ada 2",
 };

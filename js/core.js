@@ -92,3 +92,59 @@ buttonEquals.addEventListener("click", () => {
 buttonMore.addEventListener("click", () => {
   clickButton("more");
 });
+
+//* Bikin Tombol Bantuan
+var helpButton = document.querySelector("#buttonInfo");
+
+helpButton.addEventListener("click", () => {
+  console.log("Yaharo");
+
+  //* Buat Tulisan Informasi
+  let titleInfo = document.createElement("h1");
+  titleInfo.innerHTML = "Informasi";
+  titleInfo.style.color = "rgb(250, 250, 4)";
+  titleInfo.style.fontSize = "3rem";
+
+  //* Text Bantuan
+  let information = document.createElement("div");
+  let infoplus = document.createElement("p");
+  infoplus.innerHTML = questions["example"];
+  let infoplustext = document.createElement("p");
+  infoplustext.innerHTML = questions["description"];
+
+  information.appendChild(infoplus);
+  information.appendChild(infoplustext);
+  information.style.color = "white";
+  information.style.fontSize = "2rem";
+  information.className = "text-center";
+
+  //* Buat container
+  let container = document.createElement("div");
+  container.id = "info";
+  container.className =
+    "d-flex justify-content-center align-items-center flex-column";
+  container.style.position = "absolute";
+  container.style.top = "0";
+  container.style.left = "0";
+  container.style.height = "100vh";
+  container.style.width = "100vw";
+  container.style.zIndex = "1";
+  container.style.backgroundColor = "#54D1ECDD";
+
+  container.appendChild(titleInfo);
+  container.appendChild(information);
+  container.style.fontFamily = "Coiny";
+
+  //* Buat Button Silang
+  let crossButton = document.createElement("button");
+  crossButton.innerHTML = "X";
+  crossButton.className = "btn btn-danger";
+  crossButton.style.position = "relative";
+  crossButton.addEventListener("click", () => {
+    container.remove();
+  });
+
+  container.appendChild(crossButton);
+
+  document.body.appendChild(container);
+});
