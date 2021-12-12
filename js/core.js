@@ -10,8 +10,9 @@ let quest01 = document.querySelector("#quest01");
 let quest02 = document.querySelector("#quest02");
 let endQuest = document.querySelector("#end_question");
 
-let question =
-  questions["data"][Math.floor(Math.random() * questions["data"].length)];
+let random = Math.floor(Math.random() * questions["data"].length);
+let question = questions["data"][random];
+// let question = questions["data"][0];
 
 quest01.innerHTML = question[0];
 quest02.innerHTML = question[1];
@@ -63,8 +64,7 @@ const clickButton = (operator) => {
     signAlert("gagal");
     console.log("Kau Salah");
   }
-  question =
-    questions["data"][Math.floor(Math.random() * questions["data"].length)];
+  question = questions["data"][++random];
 
   quest01.innerHTML = question[0];
   quest02.innerHTML = question[1];

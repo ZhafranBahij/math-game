@@ -1,4 +1,4 @@
-# Math Game
+# Math Game : Mathnarik
 
 Apakah reaksimu ketika mendengar Matematika? Mendebarkan atau Menyenangkan? Nahh, di game ini, kalian bakal merasakan sensasi menyenangkan dan mendebarkan sekaligus. Penasaran, kan? [Klik link ini untuk memulai](https://zhafranbahij.github.io/math-game)
 
@@ -12,7 +12,7 @@ Game ini belum siap rilis cuyy, yang sabar yo. Tunggu beberapa minggu lagi.
 
 ## Siapa yang Buat?
 
-Kami dari tim Pebeka 13 dan berikut ini adalah membernya.
+Kami adalah developer Math Game : Mathnarik dan berikut ini adalah membernya.
 
 1. Atikah Khonsa Salsabila (1313619002)
 2. Ecep Jiyaul Rojak (1313619009)
