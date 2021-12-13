@@ -38,7 +38,7 @@ var questions = {
   ],
 
   unlock_level: 4,
-  example: "<sup>10</sup>/13</sub> ___ <sup>12</sup>/19</sub>",
+  example: "<sup>10</sup>/<sub>13</sub> ___ <sup>12</sup>/<sub>19</sub>",
   description:
     "Kita lakukan perkalian silang lalu bandingkan antara 10 x 19 = 190 dan 12 x 13 = 156. Ternyata hasilnya banyakan 10 x 19, berarti yang pembilangnya 10 dialah yang lebih besar",
 };

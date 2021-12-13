@@ -26,6 +26,8 @@ let doc2 = document.querySelector("#answer");
 const signAlert = (sign = "berhasil") => {
   //* Buat alert
   let alerta = document.createElement("div");
+  alerta.style.fontSize = "1.5rem";
+  alerta.style.margin = "0";
 
   //* Jika gagal
   if (sign == "gagal") {

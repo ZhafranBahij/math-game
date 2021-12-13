@@ -1,12 +1,12 @@
 body {
   /* background-color: #41e4f0; */
-  background-image: url("../img/MathBG.jpg");
+  background-image: url("../img/blob-scene-haikei.svg");
   background-size: cover;
   height: 100vh;
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 3.5em;
   font-family: "coiny";
   color: yellow;
   text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff,
@@ -15,10 +15,8 @@ h1 {
 
 a {
   border-style: groove;
-  font-size: 30px;
   font-family: "coiny";
   padding: 0px 100px;
-  width: 30%;
   margin: 5px auto;
 }
 

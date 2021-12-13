@@ -11,7 +11,7 @@
 }
 body {
   /* background-color: #41e4f0; */
-  background-image: url("../img/MathBG.jpg");
+  background-image: url("../img/blob-scene-haikei.svg");
   background-size: cover;
 }
 
@@ -20,7 +20,9 @@ body {
   top: 5%;
   right: 5%;
 }
-
+h1 {
+  color: white;
+}
 button {
   background-color: yellow;
   box-shadow: 3px 2px 1px grey;
@@ -51,10 +53,9 @@ a {
 .menu {
   margin-top: 50px;
   text-align: center;
-  padding: 30px 30px 40px 40px;
   padding: 10px 10px 10px 0;
 }
 .utama {
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
 }
