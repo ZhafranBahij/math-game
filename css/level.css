@@ -10,7 +10,9 @@
   text-shadow: 3px 2px 1px grey;
 }
 body {
-  background-color: #41e4f0;
+  /* background-color: #41e4f0; */
+  background-image: url("../img/MathBG.jpg");
+  background-size: cover;
 }
 
 #buttonInfo {
@@ -39,7 +41,7 @@ a {
   border-radius: 30px;
   border: 5px solid yellow;
   width: 700px;
-  margin: 80px auto;
+  margin: 25px auto;
   padding: 80px;
   font-size: 50px;
   color: rgb(33, 28, 100);
@@ -47,21 +49,12 @@ a {
   text-shadow: 3px 2px 1px grey;
 }
 .menu {
-  margin-inline: 100px;
+  margin-top: 50px;
   text-align: center;
   padding: 30px 30px 40px 40px;
   padding: 10px 10px 10px 0;
 }
 .utama {
-  margin-inline: 100px;
+  margin-top: 50px;
   text-align: center;
-}
-.kembali {
-  margin-inline: 100px;
-  text-align: right;
-}
-
-.selanjutnya {
-  margin-inline: 100px;
-  text-align: left;
 }

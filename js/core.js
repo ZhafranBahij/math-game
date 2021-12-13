@@ -64,6 +64,9 @@ const clickButton = (operator) => {
     signAlert("gagal");
     console.log("Kau Salah");
   }
+  if (random == questions["data"].length - 1) {
+    random = 0;
+  }
   question = questions["data"][++random];
 
   quest01.innerHTML = question[0];

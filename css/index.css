@@ -1,11 +1,16 @@
 body {
-  background-color: #41e4f0;
+  /* background-color: #41e4f0; */
+  background-image: url("../img/MathBG.jpg");
+  background-size: cover;
   height: 100vh;
 }
 
 h1 {
   font-size: 70px;
   font-family: "coiny";
+  color: yellow;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff,
+    3px 3px 0 #fff;
 }
 
 a {
