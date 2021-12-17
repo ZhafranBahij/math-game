@@ -23,3 +23,9 @@ a {
 #inti {
   height: 100vh;
 }
+
+#buttonInfo {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}

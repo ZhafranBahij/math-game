@@ -11,7 +11,7 @@ var questions = {
 
     ["2<sup>3</sup> x 3<sup>3</sup>", "4<sup>2</sup> x 2<sup>2</sup>", "more"],
     ["8<sup>2</sup> + 2<sup>3</sup>", "8 x 9", "equals"],
-    ["9<sup>3</sup>", "8<sup>3</sup> - 3<sup>3</sup>", "less"],
+    ["9<sup>3</sup>", "8<sup>3</sup> - 3<sup>3</sup>", "more"],
 
     ["9<sup>2</sup>", "7<sup>2</sup>", "more"],
     ["9 x 3", "3<sup>3</sup>", "equals"],

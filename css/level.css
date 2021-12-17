@@ -13,6 +13,7 @@ body {
   /* background-color: #41e4f0; */
   background-image: url("../img/blob-scene-haikei.svg");
   background-size: cover;
+  height: 100vh;
 }
 
 #buttonInfo {
