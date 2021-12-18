@@ -78,10 +78,14 @@ const clickButton = (operator) => {
   if (++count == 5) {
     document.querySelector("#question_menu").classList = "visually-hidden";
     endQuest.innerHTML = `Score kamu adalah ${theTruth}`;
-
     //* Save Progress
-    if (localStorage.getItem("Level_LP") < questions["unlock_level"]) {
-      localStorage.setItem("Level_LP", questions["unlock_level"]);
+    if (theTruth >= 3) {
+      if (localStorage.getItem("Level_LP") < questions["unlock_level"]) {
+        localStorage.setItem("Level_LP", questions["unlock_level"]);
+      }
+    } else {
+      endQuest.style.color = "red";
+      endQuest.innerHTML = `Kesuksesanmu untuk naik tingkat tertunda karena skor kamu adalah ${theTruth}`;
     }
   }
 };
