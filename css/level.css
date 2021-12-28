@@ -54,9 +54,47 @@ a {
 .menu {
   margin-top: 50px;
   text-align: center;
-  padding: 10px 10px 10px 0;
 }
 .utama {
   margin-top: 10px;
   text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-shadow: none;
+  }
+
+  #answer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  #more,
+  #equals,
+  #less {
+    height: 10%;
+    font-size: 1.5rem;
+  }
+
+  .form {
+    height: 80vh;
+    width: 90vw;
+    padding: 5px;
+    margin: 2px auto;
+  }
+  .menu {
+    margin-top: 10px;
+  }
+  .utama {
+    text-align: center;
+  }
 }

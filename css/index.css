@@ -29,3 +29,10 @@ a {
   top: 5%;
   right: 5%;
 }
+
+@media screen and (max-width: 576px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
